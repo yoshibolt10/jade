@@ -1,20 +1,20 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="100" inline="false" x="37" y="5">
+  <block type="controls_whileUntil" id="1" inline="false" x="37" y="5">
     <field name="MODE">UNTIL</field>
     <statement name="DO">
-      <block type="movement_forward" id="10">
+      <block type="movement_forward" id="2">
         <next>
-          <block type="movement_reverse" id="43">
+          <block type="movement_reverse" id="3">
             <next>
-              <block type="movement_left" id="53">
+              <block type="movement_left" id="4">
                 <next>
-                  <block type="movement_right" id="63">
+                  <block type="movement_right" id="5">
                     <next>
-                      <block type="movement_right" id="73">
+                      <block type="movement_right" id="6">
                         <next>
-                          <block type="movement_left" id="83">
+                          <block type="movement_left" id="7">
                             <next>
-                              <block type="movement_stop" id="93"></block>
+                              <block type="movement_stop" id="8"></block>
                             </next>
                           </block>
                         </next>
