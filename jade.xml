@@ -2,19 +2,30 @@
   <block type="controls_whileUntil" id="1" inline="false" x="37" y="5">
     <field name="MODE">UNTIL</field>
     <statement name="DO">
-      <block type="movement_forward" id="2">
+      <block type="multimedia_playwav" id="90">
+        <field name="WAV">ding</field>
         <next>
-          <block type="movement_reverse" id="3">
+          <block type="movement_forward" id="2">
             <next>
-              <block type="movement_left" id="4">
+              <block type="movement_reverse" id="3">
                 <next>
-                  <block type="movement_right" id="5">
+                  <block type="movement_left" id="4">
                     <next>
-                      <block type="movement_right" id="6">
+                      <block type="movement_right" id="5">
                         <next>
-                          <block type="movement_left" id="7">
+                          <block type="movement_right" id="6">
                             <next>
-                              <block type="movement_stop" id="8"></block>
+                              <block type="movement_left" id="7">
+                                <next>
+                                  <block type="movement_stop" id="8">
+                                    <next>
+                                      <block type="multimedia_playwav" id="97">
+                                        <field name="WAV">ding</field>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
                             </next>
                           </block>
                         </next>
